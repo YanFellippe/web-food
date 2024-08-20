@@ -3,7 +3,7 @@
  */
 
 /* Seleciona o corpo da página */
-body {
+body { 
 
     /** Muda a cor do fundo da página **/
     background-color: rgb(253, 124, 77);
@@ -74,8 +74,8 @@ e texto do logo do site) **/
     todo o espaço horizontal do corpo da página. Para tanto, podemos
     definir o posicionamento partindo da esquerda para a metade do
     tamano do pai (50%) **/
-    left: 50%;
-
+    left: 57%;
+    
     /** Como o posicionamento left considera o início do elemento
     (parte mais a esquerda do mesmo) o posicionamento ficará "torto",
     como se estivesse mais a direita do que deveria. Para corrigir
@@ -88,6 +88,7 @@ e texto do logo do site) **/
     utilizada sempre que for necessário posicionar elementos no meio
     da página **/
     margin-left: -212px;
+    gap: 25px;
 }
 
 /** Seleciona o elemento com o id "logoImg". No nosso caso, a imagem
@@ -95,8 +96,14 @@ que representa o logo do site**/
 #logoImg {
 
     /** Configura o tamanho do logo **/
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25px;
+    margin-bottom: 15px;
+    gap: 15px;
 
     /** O comando float faz com que elementos que normalmente
     quebrariam linhas "flutuem" a esquerda ou a direita, nos
@@ -104,7 +111,7 @@ que representa o logo do site**/
     mais de um elemento, de forma que estes fiquem um ao lado do
     outro. Estamos aplicando a fluação na imagem e no texto do
     logo, de forma que fiquem um ao lado do outro **/
-    float: right;
+    /* float: right; */
 }
 
 #tituloLogo {
@@ -479,7 +486,7 @@ principal do site **/
     border-radius: 50%;
 
     /** Define uma borda para o elemento **/
-    border: 3px solid #e50021;
+    border: 3px solid #ffffff00;
 }
 
 /** Seleciona elementos com id "tel" **/
@@ -496,7 +503,7 @@ principal do site **/
     height: 75px;
 
     /** Define a cor de fundo do item **/
-    background-color: #e50021;
+    background-color: black;
 
     /** Define a cor do texto para branco **/    
     color: white;
@@ -543,3 +550,41 @@ principal do site **/
     /** Remove o underline do link **/
     text-decoration: none;
 }
+
+#paginacao{
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+}
+
+#paginacao li{
+    display: inline;
+    list-style: none;
+    gap: 25px;
+    padding: 20px;
+}
+
+#paginacao a{
+    font-size: larger;
+    text-decoration: none;
+    color: #333333;
+    list-style: none;
+    font-weight: bold;
+}
+.pages:hover{
+    color: aliceblue;
+    border-radius: 35px;
+    background-color: #ff4c06e0;
+}
+#footer{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-image: url(./images/Outdoor\ Hambúrguer\ Moderno\ Laranja\ e\ Amarelo\ \(6\).png);
+    height: 200px;
+    color: white;
+}
+
+
