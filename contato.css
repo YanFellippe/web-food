@@ -24,6 +24,10 @@ form{
     
 }
 
+form h2{
+    text-align: center;
+}
+
 label{
     margin-bottom: auto;
     /* posição bloqueada */

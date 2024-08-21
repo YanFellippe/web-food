@@ -564,21 +564,20 @@ principal do site **/
 #paginacao li{
     display: inline;
     list-style: none;
-    gap: 20px;
-    padding: 18px;
+    padding: 20px;
 }
 
 #paginacao a{
-    font-size: larger;
+    font-size: 16px;
     text-decoration: none;
     color: #333333;
     list-style: none;
     font-weight: bold;
+    background: fixed;
 }
 .pages:hover{
-    color: aliceblue;
-    border-radius: 35px;
-    background-color: #ff4c06e0;
+    color: #ff4c06e0;
+    border-radius: 5px;
 }
 #footer{
     text-align: center;
