@@ -6,13 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css">
     <link rel="stylesheet" href="contato.css">
-    <title>contato</title> 
-</head> 
+    <title>Sobre nós</title>
+</head>
 <body>
     <div id="header">
-        <div id="logo">
-            <img id="logoImg" src="images/Brown Illustration Burger Food Logo (2).png">
-            <!-- <h1 id="tituloLogo">YAN'S PODRÃO</h1> -->
+        <div id="logo"> 
+            <img id="logoImg" src="./images/Brown Illustration Burger Food Logo (4).png">
         </div>
         <div id="menu">
             <ul class="listaMenu">
@@ -22,34 +21,29 @@
             </ul>
         </div>
     </div>
-
-    <div id="contato">
-        <h1>Localização</h1>
-        <a class="endereco" href="https://maps.app.goo.gl/DRBsmJvMqsTteAJX7">Xique Xique, BA</a>
-        <h2>Horário de Funcionamento</h2>
-        <p class="txt">Segunda-Feira a Sexta-Feira: 10:00 às 22:00</p>
-        <p class="txt">Sábado e Domingo: 12:00 às 23:00</p>
-        <p class="txt">Feriados: 10:00 às 16:00</p>
-
-        <div class="boss">
-            <h2>Nosso Chefe</h2>
-                <a href="https://www.pngwing.com/pt/free-png-xfxfx">
-                    Oscar, nosso fundador foi capaz de criar as mais variadas receitas e 
-                    contribuir com toda a gastronomia mundial com seu tipo inovador, 
-                    ele trabalha desde os 4 anos e ainda assim continua surpreendendo o munod com seu legado. 
-                    Ao aposentar ele pretende curtir uma boa vista enquantro viaja na sua Lamborghini Huracan e curtir com sua família gigantesca, 
-                    pois ele possui 700 irmãos e nunca recebeu auxílio do governo para isso...
-                </a>
-            <img src="./images/monstro-lixo-rua-sesamo.webp" alt="chefe">
-        </div>
-    </div>
-
-    <div id="entrega">
-        <div id="tel">
-            <a href="tel:1111111111"><h4>(61) 9955-9978</h4></a>
-            <h5>Entregamos na sua casa!</h5>
-        </div>
-        <img src="images/icons8-telefone-desligado-96.png"> 
-    </div>
+    <main>
+        <form action="#">
+            <label for="" type="text" >Nome: </label>
+            <input type="text" id="nome" required>
+            <label for=""  required>Sobrenome: </label>
+            <input type="text" id="sobrenome" required>
+            <label for="">E-mail: </label>
+            <input type="email" id="email" required >
+            <label for="">Senha: </label>
+            <input type="password" id="senha" required>
+            <label for="">Confirmar Senha: </label>
+            <input type="password" id="confirmarSenha" required>
+            <label for="">Data de Nascimento: </label>
+            <input type="date" id="dataNascimento" required>
+            <label for="">CPF: </label>
+            <input type="number" id="cpf">
+            <label for="">Telefone: </label>
+            <input type="tel" id="telefone" required>
+            <label for="">Endereço: </label>
+            <input type="text" id="endereco" required>
+            <input type="submit" id="enviar">
+            <input type="reset" id="limpar">
+        </form>
+    </main>
 </body>
 </html>

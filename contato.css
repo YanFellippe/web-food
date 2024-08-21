@@ -1,54 +1,86 @@
-#contato{
-    text-align: center;
-    justify-content: center;
-    margin: 20px;
-    padding: 20px;
+/* corpo do site */
+main{
+    margin-top: 90px;
     background-color: white;
-    border-radius: 20px; 
-}
-#contato h1{ 
-    color: red;
-}
-
-#contato form{
+    padding: 90px;
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* formulario */
+form{
+    box-shadow: 1px 1px 1px 1px lightgray;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    /* deixa os itens alinhados um ao lado do outro de forma relativa */
+    position: relative;
+    max-width: 400px;
+    margin: 5px;
+    align-items: center;
+    
 }
 
-#contato h2{
-    font-size: 24px;
-    margin-bottom: 10px;
-    color: red;
+label{
+    margin-bottom: auto;
+    /* posição bloqueada */
+    display: block;
+    justify-content: center;
 }
 
-#contato a{
+input{
+    width: 100%;
+    padding: 8px 15px;
+    margin: auto;
+    /* alinha uma caixa de texto abaixo da outra */
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* tamanho da caixa de texto */
+    box-sizing: border-box;
+}
+
+#enviar{
+    background-color: #27ad32;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 48%;
+    padding: 10px 26px;
+    text-align: center;
     text-decoration: none;
-    font-weight: bold;
-    color: black;
-}
-
-#contato .txt{
-    margin-bottom: 15px;
-    font-weight: bold;
-}
-
-#contato .boss img{
-    width: 400px;
-    height: auto;
-    border-radius: 25px;
-
-@media (min-width: 768px) {
-    img {
-        width: 50%;
+        /* alinha uma caixa de texto abaixo da outra */
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 10px;
+    gap: 10px;
+    margin-right: 10px;
+    /* quando passar o mouse */
+    &:hover {
+        background-color: #037003;
     }
 }
 
-}
-
-#contato .boss a{
-    font-size: 18px;
-    line-height: 1.5;
+#limpar{
+    background-color: rgb(238, 17, 17);
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 48%;
+    padding: 10px 26px;
     text-align: center;
-    justify-content: center;
-    display: flex;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 10px;
+    gap: 10px;
+    /* quando passar o mouse */
+    &:hover {
+        background-color: #b20000;
+    }
 }

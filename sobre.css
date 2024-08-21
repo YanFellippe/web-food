@@ -1,0 +1,72 @@
+#contato{
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px; 
+    margin-top: 50px;
+    position: relative;
+    align-items: center;
+}
+.endereco{
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    margin-top: 2px;
+}
+
+#contato .title2{
+    margin-top: 25px;
+}
+
+#contato h1{ 
+    color: red;
+}
+
+#contato form{
+    display: flex;
+    flex-direction: column;
+}
+
+#contato h2{
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: red;
+}
+
+#contato a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+#contato .txt{
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+#contato .boss img{
+    width: 400px;
+    height: auto;
+    border-radius: 25px;
+
+@media (min-width: 768px) {
+    img {
+        width: 50%;
+    }
+}
+
+}
+
+#contato .boss a{
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}

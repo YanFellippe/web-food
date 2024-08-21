@@ -76,6 +76,7 @@ e texto do logo do site) **/
     tamano do pai (50%) **/
     left: 57%;
     
+    
     /** Como o posicionamento left considera o início do elemento
     (parte mais a esquerda do mesmo) o posicionamento ficará "torto",
     como se estivesse mais a direita do que deveria. Para corrigir
@@ -165,7 +166,6 @@ que representa o logo do site**/
 
 /** Seleciona a lista ordenada que compõe o menu **/
 .listaMenu {
-    
     /** Definimos uma largura capaz de armazenar os itens de menu.
     Neste caso, 350px **/
     width: 350px;
@@ -206,6 +206,7 @@ que representa o logo do site**/
     background-color: #333333;
     border-radius: 8px;
     margin-right: 15px;
+    margin-top: 45px;
 
     /** A propriedade display permite configurar como a disposição
     de elementos HTML é feita na página. Por padrão, elementos de
@@ -307,7 +308,7 @@ principal do site **/
 
 /** Selecionamos a div que contém os elementos de promoção **/
 #promotionBanner {
-
+    margin-top: 55px;
     /** Configura o tamanho de 200px para o banner promocional **/
     height: 400px;
     width: auto;
@@ -402,8 +403,7 @@ principal do site **/
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
+} 
 /** Seleciona os elementos de td dentro da div com id
 "areaProdutos" **/
 #areaProdutos td {    
