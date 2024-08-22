@@ -200,6 +200,12 @@ que representa o logo do site**/
     margin-top: 7px;
 }
 
+.listaMenu ul{
+    list-style-type: none;
+    display: flex;
+    position: absolute;
+}
+
 /** Seleciona todos os elementos de lista do item com a classe
     "listaMenu" **/
 .listaMenu li {
